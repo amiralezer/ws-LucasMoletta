@@ -1,0 +1,13 @@
+import os
+
+class Config(object):
+
+    ##EDITED THE FOLLOWING TO REMOVE SENSETIVE DATA
+    ##SECRET_KEY = os.environ.get('SECRET_KEY') or b'REPLACE_THIS'
+    ##SQLALCHEMY_DATABASE_URI = "REPLACE_THIS"
+    SCHEDULER_API_ENABLED = True
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+ 
+
+
+    

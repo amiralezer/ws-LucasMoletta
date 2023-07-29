@@ -2,11 +2,10 @@
 - [Table of contents](#table-of-contents)
   - [Introduction ](#introduction-)
   - [Memomed ](#memomed-)
-    - [Sub paragraph ](#sub-paragraph-)
   - [Compressor Monitoring ](#compressor-monitoring-)
 
 ## Introduction <a name="introduction"></a>
-Repository aiming to document projects.
+Repository aiming to document my projects.
 
 ## Memomed <a name="paragraph1"></a>
 *This project was presented to a college subject at Universidade Tecnológica Federal do Paraná. Project developed by Lucas Moletta, Flávio Neto, Julio Tinti and Nithael Sampaio.*
@@ -24,22 +23,28 @@ The 3D printing of the model, together with the control of the motors (movement 
 - **Heroku**
 - **Arduino**
 
-
-### Sub paragraph <a name="subparagraph1"></a>
-This is a sub paragraph, formatted in heading 3 style
-
 ## Compressor Monitoring <a name="paragraph2"></a>
+*This project was presented to a college subject at Universidade Tecnológica Federal do Paraná. Project developed by Lucas Moletta, Flávio Neto, Julio Tinti and Gustavo Raimundo.*
 
-The work for the Integrative Project II course consists of a project that combines the knowledge acquired by the students throughout the course. In this context, Professor Celso Salamon pointed out that the university's air compressor is not functioning properly, consuming more energy than necessary and requiring maintenance 1600 hours earlier than expected. As a result, the present team chose to monitor the compressor's energy information to understand what is going wrong with its operation.
+The proposed project aimed to provide extra context to the air compressor usage at the college campus. Professor Celso Salamon pointed out that the university's air compressor was not functioning properly, consuming more energy than necessary and requiring maintenance hundreds of hours earlier than expected.
+This problem is closely related to the use of data for maintenance and studying the malfunction of a machine. Therefore, this work falls within the scope of Industry 4.0 and has the ability to put machine information in the cloud for monitoring and data analytics.
+After identifying the problem, the team discussed the project requirements with the professor to deliver a more suitable solution. 
+**Hence, the requirements are as follows:**
 
-This problem is closely related to the use of data for maintenance and studying the malfunction of a machine. Therefore, this work falls within the scope of Industry 4.0 and has the ability to put machine information in the cloud for monitoring and data analysis.
+- Visual signaling for problem communication.
+- Sending an email to the responsible professors when an issue occurs.
+- Analysis of the compressor's voltage and current data.
+  
+**Proposed Solution:**
+Given the problem and client's requirements, the proposed solution consists of acquiring compressor data, transmitting it to a microcontroller, and using Node-RED script to store this information in a MySQL database. Additionally, if any anomalies in the compressor's operation are detected, Node-RED will send an email to the responsible professors while activating the visual signaling. Moreover, there will be a graphical display that reads the database and presents temporal information on a dashboard. This solution will help understand the issues occurring in the university's compressor.
 
-After identifying the problem, the team discussed the project requirements with the professor to deliver a more suitable solution. Hence, the requirements are as follows:
+**Tech contributions:**
 
-Visual signaling for problem communication.
-Sending an email to the responsible professors when an issue occurs.
-Analysis of the compressor's voltage and current data.
-Proposed Solution
-In light of the problem and client requirements, the developed solution consists of acquiring compressor data, transmitting it to a microcontroller, and using Node-RED script to store this information in a MySQL database. Additionally, if any anomalies in the compressor's operation are detected, Node-RED will send an email to the responsible professors while activating the visual signaling. Moreover, there will be a graphical display that reads the database and presents temporal information on a dashboard. This solution will help understand the issues occurring in the university's compressor.
-
-Previously, there were some open points. The first one was related to the dashboard, and the chosen solution was to use a cloud service to host the website with the data so that anyone with the address can observe the values. The second point was about data acquisition, as there is a controller on the compressor that can provide information to the group, but a PZEM-004T-100A sensor was used to measure current and voltage.
+- **Python**
+- **Streamlit**
+- **Azure**
+- **Node-RED**
+- **JavaScript**
+- **SQL**
+- **Raspberry PI**
+- **ESP32**
