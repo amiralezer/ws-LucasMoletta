@@ -18,16 +18,11 @@ The 3D printing of the model, together with the control of the motors (movement 
 
 **Tech contributions:**
 
-**Python** <img src="https://pluspng.com/img-png/python-logo-png-open-2000.png" width="30" /> 
-
-**Flask**<img src="https://flask-training-courses.uk/images/flask-logo.png" width="25" />
-
-**AWS RDS**<img src="https://th.bing.com/th/id/OIP.YDC9AW6r8J8LTzqtljITTAAAAA?pid=ImgDet&rs=1" width="30" />
-
-**Heroku**<img src="https://hidenobu-tokuda.com/wp-content/uploads/2019/05/heroku-logo-solid-gradient.png" width="30" />
-  
-**Arduino**<img src="https://th.bing.com/th/id/OIP.kudi1RWT2QjTBcDNC86DWAHaHa?pid=ImgDet&rs=1" width="25" />
-
+- **Python**
+- **Flask**
+- **AWS RDS**
+- **Heroku**
+- **Arduino**
 
 
 ### Sub paragraph <a name="subparagraph1"></a>
